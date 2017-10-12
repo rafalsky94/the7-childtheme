@@ -1,0 +1,906 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Plumber v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-08-01 03:29:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ wp-plumber
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+#@ wp-plumber
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:25
+#@ wp-plumber
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore. Maybe try a search?"
+msgstr ""
+
+#: comments.php:21
+#@ wp-plumber
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:21
+#@ wp-plumber
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:21
+#@ wp-plumber
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+#@ wp-plumber
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:42
+#@ wp-plumber
+msgid "Next Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+#@ wp-plumber
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+#@ wp-plumber
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:55
+#, php-format
+#@ wp-plumber
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:56
+#@ wp-plumber
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:57
+#@ wp-plumber
+msgid "Post Comment"
+msgstr ""
+
+#: contents/content-none.php:14
+#@ wp-plumber
+msgid "Nothing Found"
+msgstr ""
+
+#: contents/content-none.php:21
+#, php-format
+#@ wp-plumber
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: contents/content-none.php:25
+#@ wp-plumber
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: contents/content-none.php:31
+#@ wp-plumber
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: contents/content-page.php:19
+#: contents/content-single.php:19
+#: contents/content.php:38
+#@ wp-plumber
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: contents/content-page.php:31
+#, php-format
+#@ wp-plumber
+msgid "Edit %s"
+msgstr ""
+
+#: contents/content-single.php:30
+#@ wp-plumber
+msgid ", "
+msgstr ""
+
+#: contents/content-single.php:31
+#, php-format
+#@ wp-plumber
+msgid "Filed under: %s"
+msgstr ""
+
+#: contents/content-single.php:40
+#@ wp-plumber
+msgid "Tags: "
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: contents/content.php:33
+#, php-format
+#@ wp-plumber
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/customizer/controls.php:14
+#@ wp-plumber
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/controls.php:16
+#@ wp-plumber
+msgid "Insert Page ID for each sections"
+msgstr ""
+
+#: inc/customizer/controls.php:24
+#@ wp-plumber
+msgid "Section 1"
+msgstr ""
+
+#: inc/customizer/controls.php:34
+#@ wp-plumber
+msgid "Section 2"
+msgstr ""
+
+#: inc/customizer/controls.php:44
+#@ wp-plumber
+msgid "Section 3"
+msgstr ""
+
+#: inc/customizer/controls.php:54
+#@ wp-plumber
+msgid "Section 4"
+msgstr ""
+
+#: inc/customizer/controls.php:64
+#@ wp-plumber
+msgid "Section 5"
+msgstr ""
+
+#: inc/customizer/controls.php:76
+#@ wp-plumber
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: inc/customizer/controls.php:87
+#@ wp-plumber
+msgid "Secondary Color Scheme"
+msgstr ""
+
+#: inc/functions/custom-functions.php:190
+#@ wp-plumber
+msgid "Better Contact Details"
+msgstr ""
+
+#: inc/functions/custom-functions.php:195
+#@ wp-plumber
+msgid "Shortcodes Ultimate"
+msgstr ""
+
+#: inc/functions/custom-functions.php:218
+#: inc/plugin/class-tgm.php:327
+#@ wp-plumber
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/functions/custom-functions.php:219
+#: inc/plugin/class-tgm.php:328
+#@ wp-plumber
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/functions/custom-functions.php:220
+#: inc/plugin/class-tgm.php:330
+#, php-format
+#@ wp-plumber
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/functions/custom-functions.php:221
+#: inc/plugin/class-tgm.php:333
+#@ wp-plumber
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/custom-functions.php:222
+#: inc/plugin/class-tgm.php:336
+#, php-format
+#@ wp-plumber
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/custom-functions.php:223
+#: inc/plugin/class-tgm.php:342
+#, php-format
+#@ wp-plumber
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:224
+#, php-format
+#@ wp-plumber
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/custom-functions.php:225
+#: inc/plugin/class-tgm.php:360
+#, php-format
+#@ wp-plumber
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/custom-functions.php:226
+#: inc/plugin/class-tgm.php:366
+#, php-format
+#@ wp-plumber
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:227
+#, php-format
+#@ wp-plumber
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/custom-functions.php:228
+#: inc/plugin/class-tgm.php:348
+#, php-format
+#@ wp-plumber
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:229
+#, php-format
+#@ wp-plumber
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:230
+#: inc/plugin/class-tgm.php:371
+#@ wp-plumber
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:231
+#: inc/plugin/class-tgm.php:381
+#@ wp-plumber
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:232
+#: inc/plugin/class-tgm.php:385
+#@ wp-plumber
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/functions/custom-functions.php:233
+#: inc/plugin/class-tgm.php:387
+#: inc/plugin/class-tgm.php:3159
+#@ wp-plumber
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/functions/custom-functions.php:234
+#, php-format
+#@ wp-plumber
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/functions/functions.php:105
+#@ wp-plumber
+msgid "The Main Menu"
+msgstr ""
+
+#: inc/functions/functions.php:118
+#@ wp-plumber
+msgid "Posts Widget Area"
+msgstr ""
+
+#: inc/functions/functions.php:119
+#@ wp-plumber
+msgid "The Posts Widget Area."
+msgstr ""
+
+#: inc/functions/functions.php:128
+#@ wp-plumber
+msgid "Page Widget Area"
+msgstr ""
+
+#: inc/functions/functions.php:129
+#@ wp-plumber
+msgid "The Page Widget Area."
+msgstr ""
+
+#: inc/functions/functions.php:138
+#@ wp-plumber
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: inc/functions/functions.php:139
+#: inc/functions/functions.php:149
+#: inc/functions/functions.php:159
+#@ wp-plumber
+msgid "The Footer Widget Area."
+msgstr ""
+
+#: inc/functions/functions.php:148
+#@ wp-plumber
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: inc/functions/functions.php:158
+#@ wp-plumber
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: inc/functions/functions.php:182
+#@ wp-plumber
+msgid "Newer Posts <span class=\"fa fa-chevron-right\"></span>"
+msgstr ""
+
+#: inc/functions/functions.php:186
+#@ wp-plumber
+msgid "<span class=\"fa fa-chevron-left\"></span> Older Posts"
+msgstr ""
+
+#: inc/functions/functions.php:205
+#@ wp-plumber
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/functions.php:209
+#, php-format
+#@ wp-plumber
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: inc/functions/functions.php:209
+#@ wp-plumber
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions/functions.php:210
+#@ wp-plumber
+msgid "F jS, Y"
+msgstr ""
+
+#: inc/functions/template-hooks.php:28
+#@ wp-plumber
+msgid "Location"
+msgstr ""
+
+#: inc/functions/template-hooks.php:32
+#@ wp-plumber
+msgid "Call Us"
+msgstr ""
+
+#: inc/functions/template-hooks.php:36
+#@ wp-plumber
+msgid "Email"
+msgstr ""
+
+#: inc/functions/template-hooks.php:55
+#@ wp-plumber
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/functions/template-hooks.php:112
+#@ wp-plumber
+msgid "You may also like "
+msgstr ""
+
+#: inc/functions/template-hooks.php:281
+#@ wp-plumber
+msgid "Y"
+msgstr ""
+
+#: inc/functions/template-hooks.php:283
+#@ wp-plumber
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/functions/template-hooks.php:283
+#, php-format
+#@ wp-plumber
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/functions/template-hooks.php:283
+#@ wp-plumber
+msgid "and"
+msgstr ""
+
+#: inc/functions/template-hooks.php:283
+#@ wp-plumber
+msgid "http://localthemes.net/"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/plugin/class-tgm.php:332
+#, php-format
+#@ wp-plumber
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/plugin/class-tgm.php:354
+#, php-format
+#@ wp-plumber
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:376
+#@ wp-plumber
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:386
+#: inc/plugin/class-tgm.php:827
+#: inc/plugin/class-tgm.php:2533
+#: inc/plugin/class-tgm.php:3580
+#@ wp-plumber
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:390
+#, php-format
+#@ wp-plumber
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:392
+#, php-format
+#@ wp-plumber
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/plugin/class-tgm.php:394
+#, php-format
+#@ wp-plumber
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:395
+#@ wp-plumber
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:396
+#@ wp-plumber
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:397
+#@ wp-plumber
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:522
+#@ wp-plumber
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:523
+#@ wp-plumber
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#@ wp-plumber
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#: inc/plugin/class-tgm.php:937
+#@ wp-plumber
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:937
+#@ wp-plumber
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:1121
+#: inc/plugin/class-tgm.php:2948
+#@ wp-plumber
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/plugin/class-tgm.php:1982
+#, php-format
+#@ wp-plumber
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2273
+#@ wp-plumber
+msgid "Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2276
+#@ wp-plumber
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2292
+#@ wp-plumber
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2295
+#@ wp-plumber
+msgid "External Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2298
+#@ wp-plumber
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2315
+#@ wp-plumber
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2319
+#@ wp-plumber
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2321
+#@ wp-plumber
+msgid "Active"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2327
+#@ wp-plumber
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2330
+#@ wp-plumber
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2333
+#@ wp-plumber
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/plugin/class-tgm.php:2342
+#, php-format
+#@ wp-plumber
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2388
+#, php-format
+#@ wp-plumber
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2392
+#, php-format
+#@ wp-plumber
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2396
+#, php-format
+#@ wp-plumber
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/plugin/class-tgm.php:2400
+#, php-format
+#@ wp-plumber
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:2482
+#@ wp-plumber
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2490
+#@ wp-plumber
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2498
+#@ wp-plumber
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2510
+#@ wp-plumber
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2533
+#@ wp-plumber
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2547
+#@ wp-plumber
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2548
+#@ wp-plumber
+msgid "Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2549
+#@ wp-plumber
+msgid "Type"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2553
+#@ wp-plumber
+msgid "Version"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2554
+#@ wp-plumber
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2603
+#, php-format
+#@ wp-plumber
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2608
+#, php-format
+#@ wp-plumber
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugin/class-tgm.php:2614
+#, php-format
+#@ wp-plumber
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2684
+#@ wp-plumber
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2717
+#@ wp-plumber
+msgid "Install"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2723
+#@ wp-plumber
+msgid "Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2726
+#@ wp-plumber
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2757
+#@ wp-plumber
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2759
+#@ wp-plumber
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2800
+#@ wp-plumber
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2802
+#@ wp-plumber
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2908
+#@ wp-plumber
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2934
+#@ wp-plumber
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/plugin/class-tgm.php:2952
+#: inc/plugin/class-tgm.php:388
+#@ wp-plumber
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:3158
+#@ wp-plumber
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3498
+#, php-format
+#@ wp-plumber
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/plugin/class-tgm.php:3501
+#, php-format
+#@ wp-plumber
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3503
+#, php-format
+#@ wp-plumber
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3507
+#@ wp-plumber
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3509
+#, php-format
+#@ wp-plumber
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ wp-plumber
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ wp-plumber
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3510
+#@ wp-plumber
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3512
+#, php-format
+#@ wp-plumber
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3515
+#@ wp-plumber
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/plugin/class-tgm.php:3517
+#, php-format
+#@ wp-plumber
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3518
+#@ wp-plumber
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugin/class-tgm.php:3520
+#, php-format
+#@ wp-plumber
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: index.php:13
+#@ wp-plumber
+msgid "Blog"
+msgstr ""
+
+#: search.php:13
+#@ wp-plumber
+msgid "Search Results for:"
+msgstr ""
+
+#: sidebar.php:24
+#@ wp-plumber
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+

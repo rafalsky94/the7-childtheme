@@ -1,0 +1,7 @@
+/*  ----------------------------------------------------
+add customizer control style
+-------------------------------------------------------- */
+#accordion-section-link-button,#accordion-section-link-button-docs{display: block !important;}
+#customize-control-client_onoff,#customize-control-serviceblock_color,#customize-control-promote_counter_content_disable,#customize-control-promote_counter_content,#customize-control-counter_link_title,#customize-control-promote_countersetup_bgcolor,#customize-control-promote_countersetup_textcolor{display: block !important;}
+
+#customize-control-countertitlesub_color,#customize-control-our_team_onoff,#customize-control-our_team_title,#customize-control-our_team_subtitle,#customize-control-promote_team_content_disable,#customize-control-promote_team_content,#customize-control-promote_teamsetup_texturl {display: block !important;}

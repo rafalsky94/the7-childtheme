@@ -1,0 +1,256 @@
+﻿/*
+/*
+Theme Name: Mora
+Template:   promote
+Theme URI:
+Author: Themez WP
+Author URI: http://themezwp.com/
+License: GNU General Public License, v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: mora
+
+
+Description: Mora is a child theme of Promote.Demo : themezwp.com/demopromote/
+
+Version: 1.0.2
+
+Tags:  one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, education, holiday, rtl-language-support
+
+Mora  WordPress Theme, Copyright 2017 themezwp.com
+Mora  is distributed under the terms of the GNU GPL
+
+
+/*  ----------------------------------------------------
+1.  Body Start
+-------------------------------------------------------- */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f7f7f7;
+    margin: 0px auto !important;
+}
+.promote-extensions{position: relative;
+overflow: hidden;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;}
+#wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+#header {
+    background: #353535;
+}
+
+.no-padding {
+    padding: 0px;
+}
+body .nosid {
+    width: 100%;
+}
+
+.home #footer{margin-top:0px !important;}
+
+.overlay{height: 100%;
+width: 100%;
+position: absolute;}
+
+/*  ----------------------------------------------------
+2.  Header
+-------------------------------------------------------- */
+
+
+
+/* logo*/
+
+.desc {
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#site-title {
+    float: left;
+    height: auto;
+    background: no-repeat;
+    line-height: 1.5;
+
+
+}
+.valign-middle {
+    display: table;
+	width:100%;
+}
+
+.valign-middle .columns {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.valign-middle .columns,
+.valign-middle [class*="column"] + [class*="column"]:last-child {
+    float: none;
+}
+#site-title .site-title {
+	margin:0;}
+#site-title a {
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+#site-title a img {
+   overflow: hidden;
+
+}
+
+.logo{overflow:hidden; width:100%;}
+
+.head-top-area {
+   position: relative;
+padding: 10px;
+
+}
+.head-top-right{ overflow:hidden;}
+.head-top-area #site-title{width:100%}
+
+.info-area {
+    background: #fafafa none repeat scroll 0 0;
+}
+
+.info-text p {
+    font-weight: 300;
+}
+
+.sin-info {
+    float: right;
+    width: 211px;
+    position: relative;
+}
+
+.sin-info span,
+.sin-info a {
+    font-weight: 500;
+}
+
+
+
+.info-icon {
+    color: #f8cf27;
+    float: left;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+.info-content {
+    color: #777777;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 40px;
+}
+
+.info-content a {
+    color: #777777;
+    line-height: 20px;
+}
+
+.info-content > a {
+    color: #777777;
+    display: block;
+}
+
+.sin-info.border-none:before {
+    display: none;
+    font-size: 11px;
+    font-size: 0.857rem;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+.head-bottom-area {
+    background: #f8cf27 none repeat scroll 0 0;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+
+/*MENU*/
+#promote-add-menu{list-style: none;
+padding-top: 10px;
+background: blueviolet;
+padding-bottom: 14px;
+width: 20%;
+padding-left: 25px;}
+#menu_wrap {
+    text-align: right;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    position: relative;
+   padding-top: 35px;
+   float: right;
+   width:70%;
+}
+#menu_wrap .search-toggle {margin-left: 15px;}
+
+.tinynav,
+.tinynav1 {
+    display: none;
+}
+#navmenu {} .nav-header {
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+#navmenu ul {
+    margin: 0px;
+    padding: 0px;
+}
+#navmenu ul li {
+    list-style-type: none;
+    position: relative;
+    margin-top: 0px;
+}
+#navmenu li a {
+    font-size: 14px;
+    transition: .5s;
+    padding: 1.2rem .8rem;
+}
+#navmenu li a:hover {
+    color: #D03232
+}
+#menu_wrap2 #navmenu li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+/* Effect 4: bottom border enlarge */
+
+#navmenu ul {
+    padding: 0 0 0px;
+}
+#navmenu ul > li::after {
+    position: absolute;
+    bottom: 100%;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+#navmenu ul > li:hover::after,
+#navmenu ul > li:focus::after {
+    width: 100%;
+}
+#navmenu ul >li ul li::after {
+    display: none;
+}
+#navmenu ul li.current-menu-item > a {
+    color: #3590ea;
+}
+.home #navmenu ul li.current-menu-item > a {
+
+}
